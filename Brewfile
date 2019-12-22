@@ -15,6 +15,7 @@ brew 'git'
 brew 'git-flow'
 brew 'mackup'
 brew 'composer'
+brew 'mas'
 
 # Apps
 cask 'WeChat'
