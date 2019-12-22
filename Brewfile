@@ -18,18 +18,17 @@ brew 'composer'
 brew 'mas'
 
 # Apps
-cask 'WeChat'
-cask 'iterm2-nightly'
-cask '1password'
-cask 'alfred3'
-cask 'GitHub Desktop'
-cask 'MacVim'
-cask 'postman'
-cask 'typora'
-cask 'phpstorm'
-cask 'sublime-text'
-cask 'vagrant'
-cask 'virtualbox'
+# cask 'iterm2-nightly'
+# cask '1password'
+# cask 'alfred3'
+# cask 'GitHub Desktop'
+# cask 'MacVim'
+# cask 'postman'
+# cask 'typora'
+# cask 'phpstorm'
+# cask 'sublime-text'
+# cask 'vagrant'
+# cask 'virtualbox'
 
 # Quicklook
 # cask 'qlcolorcode'
@@ -56,3 +55,4 @@ mas 'json-peep-for-safari', id: 1458969831
 mas '企业微信', id: 1189898970
 mas '智行vpn', id: 1213730464
 mas '滴答清单', id:966085870
+mas 'Wechat', id:836500024
