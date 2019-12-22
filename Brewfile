@@ -8,6 +8,7 @@ tap 'homebrew/cask-versions'
 # Binaries
 brew 'wget'
 brew 'unrar'
+brew 'coreutils' # Those that come with macOS are outdated
 brew 'autojump'
 brew 'php-cs-fixer'
 brew 'git'
