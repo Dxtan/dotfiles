@@ -35,6 +35,9 @@ source ./scripts/makeup.sh
 #Homebrew
 source ./scripts/homebrew.sh
 
+#vagrant
+source ./scripts/vagrant.sh
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 # source .macos

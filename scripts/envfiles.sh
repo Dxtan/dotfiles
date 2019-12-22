@@ -16,6 +16,9 @@ ln -s $DOTFILES/.vim/plugins.vim $HOME/.vim/plugins.vim
 rm -rf $HOME/.gvimrc
 ln -s $RESOURCES/.gvimrc $HOME/.gvimrc
 
+rm -rf $HOME/.gitignore
+ln -s $RESOURCES/.gitignore $HOME/.gitignore
+
 source $HOME/.zshrc > /dev/null 2>&1
 source $HOME/.vimrc > /dev/null 2>&1
 source $HOME/.gvimrc > /dev/null 2>&1
