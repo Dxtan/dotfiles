@@ -1,5 +1,5 @@
 if ! promptyn "Do you want to open app's download url in Browser?"; then
-    exit;
+    return 0;
 fi
 
 # Apps
