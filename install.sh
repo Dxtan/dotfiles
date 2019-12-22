@@ -34,6 +34,13 @@ fi
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+rm -rf $HOME/.vimrc
+ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
+rm -rf $HOME/.gvimrc
+ln -s $HOME/.dotfiles/.gvimrc $HOME/.gvimrc
+if [ ! -d $HOME/.vim ] ; then
+    mkdir $HOME/.vim
+fi
 
 # Symlink the Mackup config file to the home directory
 rm -rf $HOME/.mackup.cfg
