@@ -21,3 +21,5 @@ open https://www.sublimetext.com/3/
 open https://www.vagrantup.com/downloads.html
 #virtualbox
 open https://www.virtualbox.org/wiki/Downloads
+#cleanMyMacX
+open http://dl.hkcleanmymac.com/CleanMyMacXChinese.dmg
