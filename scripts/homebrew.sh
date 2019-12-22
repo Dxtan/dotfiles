@@ -6,4 +6,4 @@ fi
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
-brew bundle --force --verbose --debug
+brew bundle --file=resources/Brewfile

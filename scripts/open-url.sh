@@ -16,7 +16,7 @@ open https://www.typora.io/
 #phpstorm
 open https://www.jetbrains.com/phpstorm/download/#section=mac
 #sublime-text
-https://www.sublimetext.com/3
+open https://www.sublimetext.com/3/
 #vagrant
 open https://www.vagrantup.com/downloads.html
 #virtualbox
