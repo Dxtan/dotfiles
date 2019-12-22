@@ -17,9 +17,8 @@ if promptyn "Do you want to restore env files? (Y/n)"; then
     for ((i=0; i < ${#envfiles[@]}; i++))
     do
         rm -rf $HOME/${envfiles[$i]}
-        echo "Linking $HOME/${envfiles[$i]} removed"
         ln -s $RESOURCES/${envfiles[$i]} $HOME/${envfiles[$i]}
-        echo "Linking $HOME/${envfiles[$i]} symlinks created"
+        echo "Linking $HOME/${envfiles[$i]} removed and symlinks created"
     done
 fi
 
