@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo "Setting up your Mac now..."
-
-export DOTFILES=$HOME/.dotfiles
+DOTFILES=$HOME/.dotfiles
+RESOURCES=$HOME/.dotfiles/resources
 
 #Git
 if test ! $(which git); then
