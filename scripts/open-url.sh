@@ -13,9 +13,9 @@ links=(
     "http://dl.hkcleanmymac.com/CleanMyMacXChinese.dmg" #cleanMyMacX
 )
 
-if promptyn "Do you want to open app's download url in Browser?"; then
+if promptyn "Do you want to open app's download url in Browser? (Y/n)"; then
     for ((i=0; i < ${#links[@]}; i++))
     do
-        echo ${links[$i]}
+        open ${links[$i]}
     done
 fi

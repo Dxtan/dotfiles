@@ -30,7 +30,7 @@ source ./scripts/composer.sh
 source ./scripts/envfiles.sh
 
 # Symlink the Mackup config file to the home directory
-source ./scripts/makeup.sh
+source ./scripts/mackup.sh
 
 #Homebrew
 source ./scripts/homebrew.sh

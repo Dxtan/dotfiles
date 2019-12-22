@@ -1,0 +1,10 @@
+<?php
+
+return PhpCsFixer\Config::create()
+	->setRules([
+		'@PSR2' => true,
+		'binary_operator_spaces' => array(
+			'align_double_arrow' => true
+		),
+		'no_unused_imports' => true,
+	]);	

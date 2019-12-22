@@ -4,21 +4,27 @@ if [ ! -d $HOME/.vim ] ; then
     mkdir $HOME/.vim
 fi
 
-rm -rf $HOME/.zshrc
-ln -s $RESOURCES/.zshrc $HOME/.zshrc
+envfiles=(
+    ".zshrc"
+    ".vimrc"
+    ".vim/plugins.vim"
+    ".gvimrc"
+    ".gitignore"
+    ".phpcsfixer"
+);
 
-rm -rf $HOME/.vimrc
-ln -s $RESOURCES/.vimrc $HOME/.vimrc
-
-rm -rf $HOME/.vim/plugins.vim
-ln -s $DOTFILES/.vim/plugins.vim $HOME/.vim/plugins.vim
-
-rm -rf $HOME/.gvimrc
-ln -s $RESOURCES/.gvimrc $HOME/.gvimrc
-
-rm -rf $HOME/.gitignore
-ln -s $RESOURCES/.gitignore $HOME/.gitignore
+if promptyn "Do you want to restore env files? (Y/n)"; then
+    for ((i=0; i < ${#envfiles[@]}; i++))
+    do
+        rm -rf $HOME/${envfiles[$i]}
+        echo "Linking $HOME/${envfiles[$i]} removed"
+        ln -s $RESOURCES/${envfiles[$i]} $HOME/${envfiles[$i]}
+        echo "Linking $HOME/${envfiles[$i]} symlinks created"
+    done
+fi
 
 source $HOME/.zshrc > /dev/null 2>&1
 source $HOME/.vimrc > /dev/null 2>&1
 source $HOME/.gvimrc > /dev/null 2>&1
+
+touch $HOME/.hushlogin
