@@ -1,3 +1,7 @@
+if ! promptyn "Do you want to open app's download url in Browser?"; then
+    exit;
+fi
+
 # Apps
 #iterm2-nightly
 open https://www.iterm2.com/nightly/latest

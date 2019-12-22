@@ -1,8 +1,6 @@
 #!/bin/sh
 
 echo "Setting up your Mac now..."
-DOTFILES=$HOME/.dotfiles
-RESOURCES=$HOME/.dotfiles/resources
 
 #Git
 if test ! $(which git); then
@@ -26,7 +24,6 @@ source ./scripts/makeup.sh
 
 #Homebrew
 source ./scripts/homebrew.sh
-rm -rf "$(brew --cache)"
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
