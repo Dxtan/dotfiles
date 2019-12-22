@@ -9,9 +9,6 @@ if test ! $(which git); then
   xcode-select --install
 fi
 
-#Homebrew
-source ./scripts/homebrew.sh
-
 #zsh
 source ./scripts/zsh.sh
 
@@ -26,6 +23,9 @@ source ./scripts/envfiles.sh
 
 # Symlink the Mackup config file to the home directory
 source ./scripts/makeup.sh
+
+#Homebrew
+source ./scripts/homebrew.sh
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
