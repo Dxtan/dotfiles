@@ -17,11 +17,16 @@ if test ! $(which git); then
   xcode-select --install
 fi
 
+#open app download page
+source ./scripts/open-url.sh
+
+#fonts
+source ./scripts/fonts.sh
+
 #zsh
 source ./scripts/zsh.sh
 
-# Install global Composer packages
-source ./scripts/composer.sh
+
 
 # Install Laravel Valet
 # $HOME/.composer/vendor/bin/valet install
@@ -35,6 +40,9 @@ source ./scripts/mackup.sh
 #Homebrew
 source ./scripts/homebrew.sh
 
+# Install global Composer packages
+source ./scripts/composer.sh
+
 #vagrant
 source ./scripts/vagrant.sh
 
@@ -42,4 +50,3 @@ source ./scripts/vagrant.sh
 # We will run this last because this will reload the shell
 # source .macos
 
-source ./scripts/open-url.sh

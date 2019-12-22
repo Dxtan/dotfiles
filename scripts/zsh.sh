@@ -1,7 +1,7 @@
 echo "Installing zsh"
 
 if [ ! -d $HOME/.oh-my-zsh ]; then
-    sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  > /dev/null 2>&1
 fi
 
 if [ ! -d $DOTFILES/.oh-my-zsh/plugins/zsh-syntax-highlighting ]; then
