@@ -34,4 +34,4 @@ rm -rf "$(brew --cache)"
 
 echo 'Done!';
 
-source ./scripts/open-url.sh
+# source ./scripts/open-url.sh

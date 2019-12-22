@@ -34,6 +34,11 @@ alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 alias vreload="vagrant reload"
 alias vrebuild="vagrant destroy --force && vagrant up"
+alias hup="homestead up"
+alias hhalt="homestead halt"
+alias hssh="homestead ssh"
+alias hreload="homestead reload"
+alias vhrebuild="homestead destroy --force && homestead up"
 
 # Docker
 alias docker-composer="docker-compose"
@@ -57,7 +62,7 @@ alias resolve="git add . && git commit --no-edit"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias nuke="git clean -df && git reset --hard"
 
-
+#phpunit
 function t() {
   if [ -f vendor-test/bin/phpunit ]; then
     vendor-test/bin/phpunit "$@"
@@ -66,4 +71,9 @@ function t() {
   else
     phpunit "$@"
   fi
+}
+
+#homestead
+function homestead() {
+    ( cd ~/Homestead && vagrant $* )
 }
