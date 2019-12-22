@@ -17,18 +17,7 @@ brew 'mackup'
 brew 'composer'
 brew 'mas'
 
-# Apps
-# cask 'iterm2-nightly'
-# cask '1password'
-# cask 'alfred3'
-# cask 'GitHub Desktop'
-# cask 'MacVim'
-# cask 'postman'
-# cask 'typora'
-# cask 'phpstorm'
-# cask 'sublime-text'
-# cask 'vagrant'
-# cask 'virtualbox'
+
 
 # Quicklook
 # cask 'qlcolorcode'

@@ -26,9 +26,12 @@ source ./scripts/makeup.sh
 
 #Homebrew
 source ./scripts/homebrew.sh
+rm -rf "$(brew --cache)"
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
 # source .macos
 
 echo 'Done!';
+
+source ./scripts/open-url.sh
