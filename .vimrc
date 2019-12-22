@@ -16,8 +16,8 @@ set expandtab
 set shiftwidth=4
 set paste
 let g:SnazzyTransparent=1
-nmap <D-1> :NERDTreeToggle<cr>
 
+nmap <D-1> :NERDTreeToggle<cr>
 nmap <D-p> :CtrlP<cr>
 nmap <D-R> :CtrlPBufTag<cr>
 nmap <D-e> :CtrlPMRUFiles<cr>
