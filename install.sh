@@ -33,4 +33,4 @@ source ./scripts/homebrew.sh
 
 echo 'Done!';
 
-# source ./scripts/open-url.sh
+source ./scripts/open-url.sh
