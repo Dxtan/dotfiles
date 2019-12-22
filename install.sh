@@ -2,6 +2,8 @@
 
 echo "Setting up your Mac now..."
 
+export DOTFILES=$HOME/.dotfiles
+
 #Git
 if test ! $(which git); then
   xcode-select --install
