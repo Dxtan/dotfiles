@@ -16,3 +16,6 @@ ln -s $DOTFILES/.vim/plugins.vim $HOME/.vim/plugins.vim
 rm -rf $HOME/.gvimrc
 ln -s $RESOURCES/.gvimrc $HOME/.gvimrc
 
+source $HOME/.zshrc
+source $HOME/.vimrc
+source $HOME/.gvimrc
