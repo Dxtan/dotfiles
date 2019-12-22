@@ -1,6 +1,3 @@
-DOTFILES=$HOME/.dotfiles
-RESOURCES=$HOME/.dotfiles/resources
-
 promptyn () {
     while true; do
         read -p "$1 " yn

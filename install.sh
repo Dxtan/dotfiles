@@ -1,6 +1,8 @@
 #!/bin/sh
 
 echo "Setting up your Mac now..."
+DOTFILES=$HOME/.dotfiles
+RESOURCES=$HOME/.dotfiles/resources
 
 #Git
 if test ! $(which git); then
