@@ -1,5 +1,5 @@
 if [[ -z $ZSH_THEME_CLOUD_PREFIX ]]; then
-    ZSH_THEME_CLOUD_PREFIX='❤️'
+    ZSH_THEME_CLOUD_PREFIX=''
 fi
 
 PROMPT='

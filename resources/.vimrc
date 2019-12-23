@@ -9,7 +9,7 @@ set hlsearch
 set incsearch
 set t_CO=256
 set guifont=Menlo:h15
-colorscheme gruvbox
+colorscheme snazzy
 filetype indent on
 set smartindent
 set expandtab
