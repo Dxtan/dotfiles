@@ -1,0 +1,21 @@
+[
+    { "keys": ["alt+i"], "command": "find_use" },
+    { "keys": ["ctrl+super+l"], "command": "sublime_php_cs_fix" },
+    { "keys": ["super+["], "command": "jump_back" },
+    { "keys": ["super+]"], "command": "jump_forward" },
+    {
+        "keys": ["super+t"], "command": "terminus_open", "args": {
+            "config_name": "Default",
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+    {"keys": ["super+e"],"command": "recent_active_files"},
+    { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    // { "keys": ["super+ctrl+f"], "command": "toggle_distraction_free" }
+    { "keys": ["super+1"], "command": "toggle_side_bar" },
+    { "keys": ["option+shift+a"], "command": "alignment" },
+    { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+     { "keys": ["super+t"], "command": "run_single_phpunit_test"},
+     { "keys": ["alt+c"], "command": "insert_php_constructor_property" }
+]

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<?php
+
+${0}
+]]></content>
+    <tabTrigger>php</tabTrigger>
+    <scope>embedding.php - comment - variable, source.php - comment - variable, text.plain</scope>
+    <description>PHP: Script start tag</description>
+</snippet>

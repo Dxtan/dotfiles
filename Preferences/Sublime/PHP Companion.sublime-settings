@@ -1,0 +1,6 @@
+{
+    "use_sort_length":true,
+    "exclude_dir":[
+        "vendor"
+    ]
+}

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+_FILES['${1:variable}']
+]]></content>
+    <tabTrigger>_F</tabTrigger>
+    <scope>source.php variable - comment</scope>
+    <description>PHP: FILES['...']</description>
+</snippet>

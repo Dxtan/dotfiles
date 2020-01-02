@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/** @test */
+public function it_${1:case}()
+{
+
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>test</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"AutoFileName",
+		"Better Completion",
+		"BetterFindBuffer",
+		"CTags",
+		"DocBlockr",
+		"Git",
+		"GitGutter",
+		"Inspired GitHub Color Scheme",
+		"Package Control",
+		"PHP Companion",
+		"PHP CS Fixer",
+		"PHP Getters and Setters",
+		"PHPUnit Completions",
+		"Pretty JSON",
+		"Refresh File and Folders",
+		"SideBarMenuAdvanced",
+		"SublimeCodeIntel",
+		"sublimelint",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs"
+	]
+}

@@ -1,0 +1,4 @@
+{
+    "rules": "{\"@PSR2\":true, \"binary_operator_spaces\":{\"align_double_arrow\":true},\"no_unused_imports\":true}",
+    "on_save":false
+}
