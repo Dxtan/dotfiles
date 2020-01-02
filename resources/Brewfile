@@ -10,7 +10,6 @@ brew 'wget'
 brew 'unrar'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'autojump'
-brew 'php-cs-fixer'
 brew 'git'
 brew 'git-flow'
 brew 'mackup'
