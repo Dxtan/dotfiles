@@ -1,5 +1,5 @@
 Brewfile.lock.json
-.oh-my-zsh/plugins
+oh-my-zsh/plugins
 .DS_Store
 Package\ Control.cache/
 Package Control.last-run

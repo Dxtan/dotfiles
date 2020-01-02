@@ -26,7 +26,7 @@ if promptyn "Do you want to restore env files? (Y/n)"; then
 fi
 
 rm -rf $HOME/.vim/plugins.vim
-ln -s $DOTFILES/.vim/plugins.vim $HOME/.vim/plugins.vim
+ln -s $DOTFILES/vim/plugins.vim $HOME/.vim/plugins.vim
 vim +PluginInstall +qall
 
 source $HOME/.zshrc > /dev/null 2>&1
