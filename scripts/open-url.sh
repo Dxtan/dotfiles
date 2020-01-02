@@ -7,7 +7,7 @@ links=(
     "https://www.getpostman.com/downloads/" #postman
     "https://www.typora.io/" #typora
     "https://www.jetbrains.com/phpstorm/download/#section=mac" #phpstorm
-    "https://www.sublimetext.com/3/" #sublime-text
+    "https://www.sublimetext.com" #sublime-text
     "https://www.vagrantup.com/downloads.html" #vagrant
     "https://www.virtualbox.org/wiki/Downloads" #virtualbox
     "http://dl.hkcleanmymac.com/CleanMyMacXChinese.dmg" #cleanMyMacX
