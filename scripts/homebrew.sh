@@ -10,3 +10,7 @@ brew tap homebrew/bundle
 brew bundle --file=resources/Brewfile
 
 rm -rf "$(brew --cache)"
+
+if [ -d /Applications/MacVim.app  ]; then
+    ln -s /Applications/MacVim.app/Contents/bin/mvim /usr/local/bin/mvim
+fi

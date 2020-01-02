@@ -27,10 +27,6 @@ source ./scripts/fonts.sh
 source ./scripts/zsh.sh
 
 
-
-# Install Laravel Valet
-# $HOME/.composer/vendor/bin/valet install
-
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 source ./scripts/envfiles.sh
 
@@ -40,7 +36,10 @@ source ./scripts/mackup.sh
 #Homebrew
 source ./scripts/homebrew.sh
 
-# Install global Composer packages
+#Preferences
+source ./scripts/preferences.sh
+
+Install global Composer packages
 source ./scripts/composer.sh
 
 #vagrant
