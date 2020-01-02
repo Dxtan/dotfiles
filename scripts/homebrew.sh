@@ -7,6 +7,6 @@ fi
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
-brew bundle --file=resources/Brewfile --verbose --debug
+brew bundle --file=resources/Brewfile
 
 rm -rf "$(brew --cache)"
