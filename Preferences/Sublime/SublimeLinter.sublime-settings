@@ -76,7 +76,7 @@
     ],
     "paths": {
         "linux": [],
-        "osx": ["/usr/local/bin/php-cs-fixer"],
+        "osx": ["~/.composer/vendor/bin/php-cs-fixer"],
         "windows": []
     }
 }
