@@ -21,10 +21,10 @@
 		"CVS",
 		".idea"
 	],
-	"font_face": "Operator Mono Book",
-	"font_size": 16,
+	"font_face": "Menlo",
+	"font_size": 14,
 	"highlight_line": false,
-	"hot_exit": false,
+	"hot_exit": true,
 	"ignored_packages":
 	[
 		"Vintage"
