@@ -9,7 +9,6 @@ set hlsearch
 set incsearch
 set t_CO=256
 set guifont=Menlo:h15
-colorscheme snazzy
 filetype indent on
 set smartindent
 set expandtab
@@ -42,3 +41,10 @@ if (empty($TMUX))
     set termguicolors
   endif
 endif
+
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_php_checkers = ['php']
