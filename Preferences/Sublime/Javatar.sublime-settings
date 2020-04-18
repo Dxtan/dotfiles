@@ -1,0 +1,33 @@
+{
+	"message_id": 20,
+	"project_data":
+	{
+		"2":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/jamie/.dotfiles"
+				}
+			]
+		},
+		"3":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/jamie/Code/oms"
+				}
+			]
+		},
+		"4":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/jamie/.dotfiles"
+				}
+			]
+		}
+	}
+}
