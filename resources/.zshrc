@@ -75,6 +75,8 @@ HIST_STAMPS="dd/mm/yyyy"
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+source $ZSH/aliases.zsh
+source $ZSH/path.zsh
 
 # User configuration
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh

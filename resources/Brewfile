@@ -1,5 +1,5 @@
 # Taps
-tap 'homebrew/bundle'
+# tap 'homebrew/bundle'
 # tap 'homebrew/cask'
 # tap 'homebrew/cask-eid'
 # tap 'homebrew/cask-fonts'
@@ -10,11 +10,11 @@ brew 'wget'
 brew 'unrar'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'autojump'
-brew 'git'
+# brew 'git'
 brew 'git-flow'
-brew 'mackup'
+# brew 'mackup'
 brew 'composer'
-brew 'mas'
+# brew 'mas'
 
 # Quicklook
 # cask 'qlcolorcode'
@@ -33,16 +33,16 @@ brew 'mas'
 # cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Pages', id: 409201541
-mas 'Numbers', id: 409203825
-mas 'DingTalk', id: 1435447041
-mas 'Snippetslab', id: 1006087419
-mas 'json-peep-for-safari', id: 1458969831
-mas '企业微信', id: 1189898970
-mas '智行vpn', id: 1213730464
-mas '滴答清单', id:966085870
-mas 'Wechat', id:836500024
-mas '网易云音乐', id:944848654
-mas '爱奇艺', id:1012296988
-mas '自动切换输入法', id:1470350547
-mas 'Xmind', id:1327661892
+# mas 'Pages', id: 409201541
+# mas 'Numbers', id: 409203825
+# mas 'DingTalk', id: 1435447041
+# mas 'Snippetslab', id: 1006087419
+# mas 'json-peep-for-safari', id: 1458969831
+# mas '企业微信', id: 1189898970
+# mas '智行vpn', id: 1213730464
+# mas '滴答清单', id:966085870
+# mas 'Wechat', id:836500024
+# mas '网易云音乐', id:944848654
+# mas '爱奇艺', id:1012296988
+# mas '自动切换输入法', id:1470350547
+# mas 'Xmind', id:1327661892
