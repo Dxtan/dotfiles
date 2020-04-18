@@ -2,7 +2,7 @@ echo "Installing zsh"
 
 
 if [ ! -d $HOME/.oh-my-zsh ]; then
-	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  > /dev/null 2>&1
+	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
 if [ -d $HOME/.oh-my-zsh ]; then
