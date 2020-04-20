@@ -75,5 +75,5 @@ function t() {
 
 #homestead
 function homestead() {
-    ( cd ~/Homestead && vagrant $* )
+    ( cd ~/Code/Homestead && vagrant $* )
 }
