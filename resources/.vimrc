@@ -2,7 +2,6 @@ set nocompatible
 so ~/.vim/plugins.vim
 
 syntax enable
-colorscheme snazzy
 set backspace=indent,eol,start
 set linespace=15
 set nonumber
@@ -50,7 +49,3 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_php_checkers = ['php']
 
-
-let g:lightline = {
-\ 'colorscheme': 'snazzy',
-\ }

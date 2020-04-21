@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"Alignment",
 		"All Autocomplete",
@@ -17,6 +18,7 @@
 		"GitGutter",
 		"Inspired GitHub Color Scheme",
 		"Javatar",
+		"Material Theme",
 		"Package Control",
 		"PHP Companion",
 		"PHP CS Fixer",
