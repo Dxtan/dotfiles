@@ -9,7 +9,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Inspired GitHub Color Scheme/InspiredGitHub.tmTheme",
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
 	"findreplace_small": true,
@@ -29,7 +29,7 @@
 	[
 		"Vintage"
 	],
-	"line_numbers": false,
+	"line_numbers": true,
 	"line_padding_buttom": 20,
 	"line_padding_top": 20,
 	"margin": 0,
