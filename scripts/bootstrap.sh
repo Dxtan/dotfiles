@@ -21,7 +21,7 @@ fi
 source ./scripts/open-url.sh
 
 #fonts
-source ./scripts/fonts.sh
+# source ./scripts/fonts.sh
 
 #zsh
 source ./scripts/zsh.sh
@@ -31,19 +31,19 @@ source ./scripts/zsh.sh
 source ./scripts/envfiles.sh
 
 # Symlink the Mackup config file to the home directory
-source ./scripts/mackup.sh
+# source ./scripts/mackup.sh
 
 #Homebrew
-source ./scripts/homebrew.sh
+# source ./scripts/homebrew.sh
 
 #Preferences
 source ./scripts/preferences.sh
 
-Install global Composer packages
-source ./scripts/composer.sh
+# Install global Composer packages
+# source ./scripts/composer.sh
 
 #vagrant
-source ./scripts/vagrant.sh
+# source ./scripts/vagrant.sh
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
