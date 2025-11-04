@@ -2,7 +2,7 @@
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
-alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
+alias ll="/opt/homebrew/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
 weather() { curl -4 wttr.in/${1:-Nanjing} }
 alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
